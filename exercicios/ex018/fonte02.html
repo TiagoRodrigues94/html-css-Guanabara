@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love'; /*<---aqui vc pode colocar o noem que quiser*/
+            src: url('/fonts/love\ larry\ ttf.ttf ') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /* Tipos de format()
+            -opentyoe(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-aat(Apple avanced Typography)
+            -svg */
+        }
+    body{
+    font-family:Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        font-family:'Love', serif;/*<--- aqui colocar o nome da fonte que eu criei o nome lá em cima no caso ai é o "love" */
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+        </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum accusantium consequuntur odio est? Doloremque, natus, error commodi nesciunt debitis consectetur perspiciatis vel nemo maiores facere dolore soluta repellat sequi possimus.</p>
+</body>
+</html>
